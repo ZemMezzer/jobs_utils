@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Unity.Jobs;
 
-namespace Game.Plugins.ZUtils.JobsUtils.Reference
+namespace JobsUtils.Reference
 {
     public class JobHandler<T> : JobHandler
     {

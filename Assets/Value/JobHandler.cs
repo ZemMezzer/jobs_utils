@@ -1,7 +1,7 @@
 using System;
 using Unity.Jobs;
 
-namespace Game.Plugins.ZUtils.JobsUtils.Value
+namespace JobsUtils.Value
 {
     public readonly struct JobHandler
     {

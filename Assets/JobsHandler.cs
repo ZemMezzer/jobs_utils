@@ -1,17 +1,16 @@
 using System;
 using System.Collections.Generic;
-using Game.Plugins.ZUtils.JobsUtils.Reference;
-using Game.Plugins.ZUtils.JobsUtils.Value;
+using JobsUtils.Value;
 using UnityEngine;
 
-namespace Game.Plugins.ZUtils.JobsUtils
+namespace JobsUtils
 {
     public class JobsHandler : MonoBehaviour
     {
-        private readonly List<Value.JobHandler> valueJobsHandlers = new List<Value.JobHandler>();
+        private readonly List<JobHandler> valueJobsHandlers = new List<JobHandler>();
         private readonly List<Reference.JobHandler> referenceJobsHandlers = new List<Reference.JobHandler>();
 
-        public void AddJobInQueue(Value.JobHandler jobHandler)
+        public void AddJobInQueue(JobHandler jobHandler)
         {
             valueJobsHandlers.Add(jobHandler);
         }

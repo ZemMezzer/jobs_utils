@@ -1,9 +1,7 @@
-using Game.Plugins.ZUtils.JobsUtils.Reference;
-using Game.Plugins.ZUtils.JobsUtils.Value;
+using JobsUtils.Reference;
 using UnityEngine;
-using JobHandler = Game.Plugins.ZUtils.JobsUtils.Reference.JobHandler;
 
-namespace Game.Plugins.ZUtils.JobsUtils
+namespace JobsUtils
 {
     public static class Jobs
     {
