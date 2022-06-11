@@ -67,10 +67,5 @@ namespace JobsUtils
                 }
             }
         }
-
-        private void OnGUI()
-        {
-            GUI.TextArea(new Rect(0, 0, 1000, 1000), referenceJobsHandlers.Count.ToString());
-        }
     }
 }
