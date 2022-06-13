@@ -22,11 +22,11 @@ namespace JobsUtils
 
         private void Update()
         {
-            IterateOverJobs();
-            IterateOverDisposableJobs();
+            IterateOverValueJobs();
+            IterateOverReferenceJobs();
         }
 
-        private void IterateOverJobs()
+        private void IterateOverValueJobs()
         {
             for (int i = valueJobsHandlers.Count - 1; i >= 0; i--)
             {
@@ -47,7 +47,7 @@ namespace JobsUtils
             }
         }
 
-        private void IterateOverDisposableJobs()
+        private void IterateOverReferenceJobs()
         {
             for (int i = referenceJobsHandlers.Count - 1; i >= 0; i--)
             {
